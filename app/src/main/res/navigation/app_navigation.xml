@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/listSeriesFragment">
+
+    <fragment
+        android:id="@+id/listSeriesFragment"
+        android:name="com.example.at_marvel_movie.ui.series.list.ListSeriesFragment"
+        android:label="list_series_fragment"
+        tools:layout="@layout/list_series_fragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.at_marvel_movie.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" />
+</navigation>
